@@ -2,9 +2,9 @@
 require 'pry'
 def countdown(int)
   int = 10
-  while int < 10
-      int -= 1
+  while int < 0
   puts "#{number} SECOND(S)!"
+  int -= 1
   return "HAPPY NEW YEAR!"
   binding.pry
 end
