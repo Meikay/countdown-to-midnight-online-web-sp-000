@@ -6,5 +6,5 @@ def countdown(int)
   puts "#{number} SECOND(S)!"
   int -= 1
   return "HAPPY NEW YEAR!"
-  binding.pry 
+  binding.pry
 end
